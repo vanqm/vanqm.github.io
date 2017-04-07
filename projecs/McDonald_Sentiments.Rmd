@@ -1,0 +1,174 @@
+---
+title: "McDonald's Review Sentiment"
+author: "Van Quoc Mai, maiquocvan@gmail.com"
+date: "April 7, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Dataset
+
+Data [McDonalds-Yelp-Sentiment-DFE.csv](https://www.crowdflower.com/wp-content/uploads/2016/03/McDonalds-Yelp-Sentiment-DFE.csv) is get from https://www.crowdflower.com
+
+## Description of Variables
+
+The dataset contains 1525 abservations of 10 variables:
+
+1. **unit_id**: id of record
+2. **golden**: value *FALSE*
+3. **unit_state**: value *finalized*
+4. **trusted_judgments**: value *3*
+5. **last_judgment_at**: time. Example *2/21/15 0:36*
+6. **policies_violated**: the type of policies, violated. Example: *RudeService\nOrderProblem\nFilthy* 
+7. **policies_violated.confidence**: the confidence of policies, violated. Example: *1.0\n0.6667\n0.6667*
+8. **city**: City name
+9. **policies_violated_gold**: value *NA*
+10. **review**: review detail
+
+## Problem Statement
+A sentiment analysis of negative McDonald's reviews. Contributors were given reviews culled from low-rated McDonald's from random metro areas and asked to classify why the locations received low reviews. Options given were:
+
+  - Rude Service
+  - Slow Service
+  - Problem with Order
+  - Bad Food
+  - Bad Neighborhood
+  - Dirty Location
+  - Cost
+  - Missing Item
+
+## Data Pre-Processing
+
+The column names of data
+```{r echo=FALSE}
+data <- read.csv('../Downloads/McDonalds-Yelp-Sentiment-DFE.csv')
+names(data)
+```
+
+Summary the data, the content of 'review' column is too long. So we ignore it
+```{r echo=FALSE}
+summary(data[, -10])
+```
+
+The detail of data
+```{r echo=FALSE}
+head(data[, 1:9])
+```
+
+and the content of 'review' column
+```{r echo=FALSE}
+head(data[1:2, 10])
+```
+There are some fields that there is no meaning. Such as:
+
+- unit_id
+- last_judgment_at
+- policies_violated_gold (all values = 'NA')
+- golden
+- unit_state
+- trusted_judgments
+```{r echo=FALSE}
+data <- data[, c(-1, -5)]
+data$policies_violated_gold <- NULL
+data$X_golden <- NULL
+data$X_unit_state <- NULL
+data$X_trusted_judgments <- NULL
+```
+
+Let's see the detail after cleaning
+
+
+## Data Exploration
+
+
+## Data Visualization
+
+
+## Creating New Features
+
+There are relationship between 'policies_violated' vs. 'policies_violated.confidence'. We should create new fields base on  'policies_violated' with value from 'policies_violated.confidence'
+
+Firstly, we should remove the missed value. 
+policies_violated = 'na' or policies_violated = '' is no meaning. So remove those records
+```{r echo=FALSE}
+dim(data[data$policies_violated == 'na', ])
+data <- data[data$policies_violated != 'na', ]
+dim(data[data$policies_violated == '', ])
+data <- data[data$policies_violated != '', ]
+```
+
+Let's see the result
+```{r echo=FALSE}
+parse_policies_violated <- function(dat = data){
+  # First: type of 'policies_violated' is factor. So convert it to characters
+  dat$policies_violated <- as.character(dat$policies_violated)
+  # Second: there are duplicates, just review uinque
+  uni_policies_violated <- unique(data$policies_violated)
+  for(options in uni_policies_violated){
+    arr_option = strsplit(options, '\n')
+    # type of arr_option is list, so we use [[1]] to get the value
+    for(option in arr_option[[1]]){
+      # Not do anything if 'option' exists
+      if(any(option == names(dat))){
+        
+      } else {
+        new_col <- 0
+        dat <- cbind(dat, new_col)
+        names(dat)[length(names(dat))] <- option
+      }
+      
+    }
+  }
+  
+  return(dat)
+}
+
+data <- parse_policies_violated(data)
+
+# Let's see the new fields
+names(data)
+head(data[, 5:13])
+
+parse_policies_violated.confidence <- function(dat = data){
+  # First: type of 'policies_violated' is factor. So convert it to characters
+  dat$policies_violated.confidence <- as.character(dat$policies_violated.confidence)
+  dat$policies_violated <- as.character(dat$policies_violated)
+  for(i in 1:nrow(dat)){
+    confid.list = strsplit(dat$policies_violated.confidence[i], '\n')
+    option.list = strsplit(dat$policies_violated[i], '\n')
+    # strsplit() return a list, so we use [[1]] to get the value
+    for(j in 1:length(option.list[[1]])){
+      dat[i, option.list[[1]][j]] <- confid.list[[1]][j]
+    }
+  }
+  
+  return(dat)
+}
+
+data <- parse_policies_violated.confidence(data)
+
+# 'na' field has no meaning. Remove it.
+data$na <- NULL
+names(data)
+head(data[, 5:12])
+```
+
+
+
+
+## Modeling: 
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
