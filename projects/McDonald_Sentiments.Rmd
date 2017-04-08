@@ -45,7 +45,7 @@ A sentiment analysis of negative McDonald's reviews. Contributors were given rev
 
 The column names of data
 ```{r echo=FALSE}
-data <- read.csv('../Downloads/McDonalds-Yelp-Sentiment-DFE.csv')
+data <- read.csv('../data/McDonalds-Yelp-Sentiment-DFE.csv')
 names(data)
 ```
 
@@ -71,6 +71,7 @@ There are some fields that there is no meaning. Such as:
 - golden
 - unit_state
 - trusted_judgments
+So remove them
 ```{r echo=FALSE}
 data <- data[, c(-1, -5)]
 data$policies_violated_gold <- NULL
@@ -80,13 +81,23 @@ data$X_trusted_judgments <- NULL
 ```
 
 Let's see the detail after cleaning
-
+```{r echo=FALSE}
+dim(data)
+names(data)
+```
 
 ## Data Exploration
-
+Summary the data
+```{r echo=FALSE}
+summary(data[, 1:3])
+```
 
 ## Data Visualization
-
+How many records that each city has?
+```{r echo=FALSE}
+library(ggplot2)
+ggplot(data, aes(city)) + geom_bar()
+```
 
 ## Creating New Features
 
@@ -157,18 +168,50 @@ names(data)
 head(data[, 5:12])
 ```
 
+Next:
+
+- We will ignore 'review'
+- Group by 'city', calculate the mean of values (ignore the record has 0 values)
+```{r echo=FALSE}
+# Convert all policies violated fields to number
+for(i in 5:12){
+  data[, i] <- as.numeric(data[, i])
+}
+# summary but ignore 'review'
+#summary(data[, -4])
 
 
+# Groupby 'city', calculate the mean
+avg.city.policies.violated <- function(dat = data){
+  cities <- unique(dat$city)
+  # Remove empty city
+  cities <- cities[cities != '']
+  avg.df <- data.frame()
+  
+  for(city in cities){
+    # apply() - option: 1-row, 2-column
+    avg.col.by.city <- apply(dat[dat$city == city, 5:12], 2, function(x) {
+      mean(x[x != 0])
+    })
+    avg.df <- rbind(avg.df, avg.col.by.city)
+  }
+  # Add city column at the end data frame
+  avg.df <- cbind(avg.df, as.character(cities))
+  names(avg.df) <- names(dat)[c(5:12, 3)]
+  
+  return(avg.df)
+}
+
+avg.cities <- avg.city.policies.violated(dat = data)
+```
+
+Let's see the result:
+```{r echo=FALSE}
+head(avg.cities)
+```
 
 ## Modeling: 
 
 
-## Including Plots
+In-progress!
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
