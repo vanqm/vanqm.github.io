@@ -19,13 +19,17 @@ The Pentaho products consist of Business Analytics (BA) and Data Integration (DI
 
 ### Pentaho Business Analytics
 The BA (Business Analytics) components to Pentaho help you create compelling visualizations, reports, and dashboards, based on data models that you design.
+
 ![Sample Report](../img/pentahoBA1.png)
+
 ![Sample Dashboard](../img/pentahoBA2.png)
      
 ### Pentaho Data Integration
 Pentaho Data Integration (PDI) provides the Extraction, Transformation, and Loading (ETL) capabilities that facilitates the process of capturing, cleansing, and storing data using a uniform and consistent format that is accessible and relevant to end users and IoT technologies.
+
 ![Pentaho DI](../img/pentahoDI.png)
 
 ### Big Data
 Pentaho provides a complete big data analytics solution that supports the entire big data analytics process. From big data aggregation, preparation, and integration, to interactive visualization, analysis, and prediction, Pentaho allows you to harvest the meaningful patterns buried in big data stores.
+
 ![Petaho - Big Data](../img/pentaho_bigdata.gif)
