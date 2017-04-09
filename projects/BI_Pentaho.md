@@ -27,7 +27,7 @@ The BA (Business Analytics) components to Pentaho help you create compelling vis
 ### Pentaho Data Integration
 Pentaho Data Integration (PDI) provides the Extraction, Transformation, and Loading (ETL) capabilities that facilitates the process of capturing, cleansing, and storing data using a uniform and consistent format that is accessible and relevant to end users and IoT technologies.
 
-![Pentaho DI](../img/pentahoDI.png)
+![Pentaho DI](../img/pentahoDI.jpg)
 
 ### Big Data
 Pentaho provides a complete big data analytics solution that supports the entire big data analytics process. From big data aggregation, preparation, and integration, to interactive visualization, analysis, and prediction, Pentaho allows you to harvest the meaningful patterns buried in big data stores.
