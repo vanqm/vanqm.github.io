@@ -25,7 +25,7 @@ To setup GUI, you could use the commands:
     #ln -sf /lib/systemd/system/graphical.target /etc/systemd/system/default.target
     #reboot
 
-1.4 Configuring a DHCP Client
+### 1.4 Configuring a DHCP Client
 
 You should do this job to configure the internet connection
 
@@ -37,7 +37,7 @@ You should do this job to configure the internet connection
         ONBOOT=yes
 
 You could check ifcfg-name by ifconfig command.
-2. Install Hadoop 2.7.3 Single-Node Cluster
+## 2. Install Hadoop 2.7.3 Single-Node Cluster
 Name
 	
 Version
@@ -49,11 +49,11 @@ Hive	2.1.1
 Apache Derby	10.8.3.0
 
  
-2.1 Install Core Components
+## 2.1 Install Core Components
 
 You could get more details from https://www.tutorialspoint.com/hadoop/hadoop_enviornment_setup.htm
 
-2.1.1 Pre-installation Setup
+### 2.1.1 Pre-installation Setup
 
     Creating a User
         #su
@@ -65,7 +65,7 @@ You could get more details from https://www.tutorialspoint.com/hadoop/hadoop_env
         #chmod 0600 ~/.ssh/authorized_keys
     Reboot and re-login with hadoop user
 
-2.1.2 Install Java
+### 2.1.2 Install Java
 
     Install Java 1.8.0
         #yum install java-1.8.0-openjdk-devel.x86_64
@@ -75,7 +75,7 @@ You could get more details from https://www.tutorialspoint.com/hadoop/hadoop_env
         export JRE_HOME=$JAVA_HOME/jre
         export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
 
-2.1.3 Install Hadoop (standalone)
+### 2.1.3 Install Hadoop (standalone)
 
     Download Hadoop 2.7.3
         #wget http://apache.claz.org/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
@@ -107,8 +107,7 @@ You could get more details from https://www.tutorialspoint.com/hadoop/hadoop_env
         Check the result
             #cat output/*
 
-2.1.4 Installing Hadoop in Pseudo Distributed Mode
-
+### 2.1.4 Installing Hadoop in Pseudo Distributed Mode
 You could get more details about installing Hadoop in Pseudo Distributed Mode in https://www.tutorialspoint.com/hadoop/hadoop_enviornment_setup.htm
 
     Configuration Hadoop
@@ -132,11 +131,9 @@ You could get more details about installing Hadoop in Pseudo Distributed Mode in
         Verify All Applications for Cluster
             http://localhost:8088/
 
-2.2 Install Sub Components
-2.2.1 HBase
-
+## 2.2 Install Sub Components
+### 2.2.1 HBase
 You could get more details from https://www.tutorialspoint.com/hbase/hbase_installation.htm
-
 Notes:
 
     Hbase 1.2.4 from: http://mirrors.viethosting.com/apache/hbase/stable/hbase-1.2.4-bin.tar.gz
@@ -146,10 +143,8 @@ Notes:
         export PATH=$PATH:$HBASE_HOME/bin
     Should change mode /usr/local/hbase to 777 to let all users could use
 
-2.2.2 Hive
-
+### 2.2.2 Hive
 You could get more details from https://www.tutorialspoint.com/hive/hive_installation.htm
-
 Notes:
 
     You should get HIVE from http://mirrors.viethosting.com/apache/hive/hive-2.1.1/
@@ -160,27 +155,21 @@ Notes:
         #schematool -dbType derby -initSchema
     Should change mode /usr/local/hive to 777 to let all users could use
 
-3. Install Hadoop 2.7.3 Multi-Node Cluster
+## 3. Install Hadoop 2.7.3 Multi-Node Cluster
+Node|Hostname|IP Address
+----|--------|----------
+Master|master|192.168.56.105
+Slave|slave1|192.168.56.105
 
-Node
-	
-Hostname
-	
-IP Address
-Master	master	192.168.56.105
-Slave	slave1	192.168.56.105
-3.1 Clone Hadoop Single-node VM as master
-
+### 3.1 Clone Hadoop Single-node VM as master
     VMware Workstation, free version, has not supported clone function. So if you have installed VM in VMware Workstation tool, you must convert the VM image to use in Oracle VM Virtualbox tool.
     Use Oracle VM Virtualbox to clone CentOS VM as master name
 
-3.2 Configuration
-
+### 3.2 Configuration
     Step 1: Open terminal; add the node details in hosts file
-
-    $sudo gedit /etc/hosts
-    192.168.56.105 master
-    192.168.56.106 slave1
+    	>#sudo gedit /etc/hosts
+    	>192.168.56.105 master
+    	>192.168.56.106 slave1
 
     Step 2: Edit the hostname
 
@@ -256,34 +245,26 @@ Slave	slave1	192.168.56.105
     http://master:50070/
     http://master:8088/
 
-3.3 Adding new nodes to an existing cluster
-
-    How to?
+### 3.3 Adding new nodes to an existing cluster
+    **How to?**
         Step 1: From the master node, update the slaves configuration file with the hostname of the new node:
-            $vi /usr/local/hadoop/etc/hadoop/slaves
+            #vi /usr/local/hadoop/etc/hadoop/slaves
             master
             slave1
             slave2
         Step 2: Update slave2 in /etc/hosts file. Such as:
             192.168.56.107    slave2
         Step 3: Log in to the new node (slave2) and start the DataNode and TaskTracker services:
-
-            $ssh slave2
-
-            $cd /usr/local/hadoop
-
-            $sbin/hadoop-daemon.sh start datanode
-
-            $sbin/hadoop-daemon.sh start tasktracker
-    How it works?
-
+            #ssh slave2
+            #cd /usr/local/hadoop
+            #sbin/hadoop-daemon.sh start datanode
+            #sbin/hadoop-daemon.sh start tasktracker
+    **How it works?**
         We updated the slaves configuration file on the head node to tell the Hadoop framework that a new node exists in the cluster. However, this file is only read when the Hadoop services are started (for example, by executing the bin/start-all.sh script). In order to add the new node to the cluster without having to restart all of the Hadoop services, we logged into the new node, and started the DataNode and TaskTracker services manually.
-        Note:
-            The DataNode and TaskTracker services will automatically start the next time the cluster is restarted.
-    More
-
+    **Note:**
+        The DataNode and TaskTracker services will automatically start the next time the cluster is restarted.
+    **More**
         When you add a new node to the cluster, the cluster is not properly balanced. HDFS will not automatically redistribute any existing data to the new node in order to balance the cluster. To rebalance the existing data in the cluster, you can run the following command from the head node:
-
         #sbin/start-balancer.sh
 
-3.4 Safely decommissioning nodes
+### 3.4 Safely decommissioning nodes
