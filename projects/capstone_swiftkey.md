@@ -1,4 +1,4 @@
-# Business Intelligence - Pentaho
+# Data Science Specialization - Capstone Project
 
 |Author|Email|Date|
 |------|-----|----|
