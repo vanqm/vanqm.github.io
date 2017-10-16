@@ -48,7 +48,7 @@ This is a great format for human consumption, but it can't aesily be understood 
 
 Just want to see the code? Here it is:
 
-'''python
+```python
 import requests
 r = requests.get('https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html')
 
@@ -68,6 +68,6 @@ import pandas as pd
 df = pd.DataFrame(records, columns=['date', 'lie', 'explanation', 'url'])
 df['date'] = pd.to_datetime(df['date'])
 df.to_csv('trump_lies.csv', index=False, encoding='utf-8')
-'''
+```
 
 Want to understand the code? Read the [tutorial](http://www.dataschool.io/python-web-scraping-of-president-trumps-lies/)!
