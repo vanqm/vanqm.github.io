@@ -15,3 +15,7 @@
 - [Web Version](http://pandas.pydata.org/pandas-docs/stable/#)
 - [PDF Version](http://pandas.pydata.org/pandas-docs/stable/pandas.pdf)
 - [Zipped HTML](http://pandas.pydata.org/pandas-docs/stable/pandas.zip)
+
+
+## Tidy Data in Action
+[Hadley Whickham](http://had.co.nz) wrote a famous paper (for a certain definition of famous) about the importance of [tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) when doing data analysis.
