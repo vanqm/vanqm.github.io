@@ -20,14 +20,8 @@
 ## Tidy Data in Action
 - [Hadley Whickham](http://had.co.nz) wrote a famous paper (for a certain definition of famous) about the importance of [tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) when doing data analysis.
 - [Tidy Data](http://r4ds.had.co.nz/tidy-data.html): from http://r4ds.had.co.nz
-  - ...
   - Spreading and gathering
-    - Spreading: 
-    - Gathering: 
   - Separating and uniting
-    - Separating: pulls apart one column into multiple columns, by splitting wherever a separator character appears.
-    - Uniting: it combines multiple columns into a single column
-  - ...
 
 ## General Textbooks
 - [Forecasting: Principles and Practice](https://www.otexts.org/fpp/2/5): A great introduction
