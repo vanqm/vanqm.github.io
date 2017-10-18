@@ -18,7 +18,8 @@
 
 
 ## Tidy Data in Action
-[Hadley Whickham](http://had.co.nz) wrote a famous paper (for a certain definition of famous) about the importance of [tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) when doing data analysis.
+- [Hadley Whickham](http://had.co.nz) wrote a famous paper (for a certain definition of famous) about the importance of [tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) when doing data analysis.
+- [Tidy Data](http://r4ds.had.co.nz/tidy-data.html): from http://r4ds.had.co.nz
 
 ## General Textbooks
 - [Forecasting: Principles and Practice](https://www.otexts.org/fpp/2/5): A great introduction
