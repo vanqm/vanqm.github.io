@@ -60,23 +60,53 @@ Below is a 5-step process that you can follow to consistently achieve above aver
   - [Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
   - [Data Leakage in Machine Learning](https://machinelearningmastery.com/data-leakage-machine-learning/)
 - Step 3: Spot-check algorithms. 
-  - [How to Evaluate Machine Learning Algorithms]()
-  - [Why you should be Spot-Checking Algorithms on your Machine Learning Problems]()
-  - [How To Choose The Right Test Options When Evaluating Machine Learning Algorithms]()
-  - [A Data-Driven Approach to Choosing Machine Learning Algorithms]()
+  - [How to Evaluate Machine Learning Algorithms](https://machinelearningmastery.com/how-to-evaluate-machine-learning-algorithms/)
+  - [Why you should be Spot-Checking Algorithms on your Machine Learning Problems](https://machinelearningmastery.com/why-you-should-be-spot-checking-algorithms-on-your-machine-learning-problems/)
+  - [How To Choose The Right Test Options When Evaluating Machine Learning Algorithms](https://machinelearningmastery.com/how-to-choose-the-right-test-options-when-evaluating-machine-learning-algorithms/)
+  - [A Data-Driven Approach to Choosing Machine Learning Algorithms](https://machinelearningmastery.com/a-data-driven-approach-to-machine-learning/)
 - Step 4: Improve results. 
-  - [How to Improve Machine Learning Results]()
-  - [Machine Learning Performance Improvement Cheat Sheet]()
-  - [How To Improve Deep Learning Performance]()
+  - [How to Improve Machine Learning Results](https://machinelearningmastery.com/how-to-improve-machine-learning-results/)
+  - [Machine Learning Performance Improvement Cheat Sheet](https://machinelearningmastery.com/machine-learning-performance-improvement-cheat-sheet/)
+  - [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
 - Step 5: Present results. 
-  - [How to Use Machine Learning Results]()
-  - [How To Deploy Your Predictive Model To Production]()
+  - [How to Use Machine Learning Results](https://machinelearningmastery.com/how-to-use-machine-learning-results/)
+  - [How To Deploy Your Predictive Model To Production](https://machinelearningmastery.com/deploy-machine-learning-model-to-production/)
 
 For a good summary of this process, see the posts:
-- [Applied Machine Learning Process]()
-- [How to Use a Machine Learning Checklist to Get Accurate Predictions]()
+- [Applied Machine Learning Process](https://machinelearningmastery.com/process-for-working-through-machine-learning-problems/)
+- [How to Use a Machine Learning Checklist to Get Accurate Predictions](https://machinelearningmastery.com/machine-learning-checklist/)
 
+## Machine Learning Algorithms
 
+Machine learning is about machine learning algorithms.
+You need to know what algorithms are available for a given problem, how they work, and how to get the most out of them.
+Here’s how to get started with machine learning algorithms:
+- Step 1: Discover the different types of machine learning algorithms.  
+  - [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- Step 2: Discover the foundations of machine learning algorithms.  
+  - [How Machine Learning Algorithms Work](https://machinelearningmastery.com/how-machine-learning-algorithms-work/)
+  - [Parametric and Nonparametric Algorithms](https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/)
+  - [Supervised and Unsupervised Algorithms](https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/)
+  - [The Bias-Variance Trade-Off](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)
+  - [Overfitting and Underfitting With Algorithms](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
+- Step 3: Discover how top machine learning algorithms work.
+  - [Machine Learning Algorithms Mini-Course](https://machinelearningmastery.com/machine-learning-algorithms-mini-course/)
+  - [Master Machine Learning Algorithms (my book)](https://machinelearningmastery.com/master-machine-learning-algorithms/)
+You can see all [machine learning algorithm posts here](https://machinelearningmastery.com/category/machine-learning-algorithms/). Below is a selection of some of the most popular tutorials.
+**Linear Algorithms**
+- [Gradient Descent](https://machinelearningmastery.com/gradient-descent-for-machine-learning/)
+- [Linear Regression](https://machinelearningmastery.com/linear-regression-for-machine-learning/)
+- [Logistic Regression](https://machinelearningmastery.com/logistic-regression-for-machine-learning/)
+- [Linear Discriminant Analysis](https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/)
+
+**Nonlinear Algorithms**
+- [Classification And Regression Trees](https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/)
+- [Naive Bayes](https://machinelearningmastery.com/naive-bayes-for-machine-learning/)
+- [K-Nearest Neighbors](https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/)
+- [Learning Vector Quantization](https://machinelearningmastery.com/learning-vector-quantization-for-machine-learning/)
+- [Support Vector Machines](https://machinelearningmastery.com/support-vector-machines-for-machine-learning/)
+- [Bagging and Random Forest](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
+- [Boosting and AdaBoost](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/)
 
 
 
