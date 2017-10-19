@@ -32,6 +32,10 @@ Machine learning algorithms are used primarily for the following types of output
 - PCA (Principle component analysis)
 
 ## Machine Learning - Preprocessing Data
-## Deal with Categorical Variables
+### Deal with Categorical Variables
 - [Why One-Hot Encode Data in Machine Learning?](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 - [Simple Methods to deal with Categorical Variables in Predictive Modeling](https://www.analyticsvidhya.com/blog/2015/11/easy-methods-deal-categorical-variables-predictive-modeling/)
+- [https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/](https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/)
+
+## Machine Learning - Performance
+- [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
