@@ -1,3 +1,4 @@
+# Python Language
 ## Ref: [http://tomaugspurger.github.io](http://tomaugspurger.github.io)
 
 **Practical Pandas**
@@ -29,3 +30,5 @@
 - [Greene's Econometric Analysis](http://pages.stern.nyu.edu/~wgreene/Text/econometricanalysis.htm): My favorite PhD level textbook
 - [Hamilton's Time Series Analysis](https://www.amazon.com/Time-Analysis-James-Douglas-Hamilton/dp/0691042896): A classic
 - [Lutkehpohl's New Introduction to Multiple Time Series Analysis](https://www.amazon.com/New-Introduction-Multiple-Time-Analysis/dp/3540262393): Extremely dry, but useful if you're implementing this stuff
+
+
