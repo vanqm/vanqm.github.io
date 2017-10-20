@@ -80,6 +80,7 @@ For a good summary of this process, see the posts:
 
 Machine learning is about machine learning algorithms.
 You need to know what algorithms are available for a given problem, how they work, and how to get the most out of them.
+
 Here’s how to get started with machine learning algorithms:
 - Step 1: Discover the different types of machine learning algorithms.  
   - [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
@@ -107,6 +108,100 @@ You can see all [machine learning algorithm posts here](https://machinelearningm
 - [Support Vector Machines](https://machinelearningmastery.com/support-vector-machines-for-machine-learning/)
 - [Bagging and Random Forest](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
 - [Boosting and AdaBoost](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/)
+
+## Study Machine Learning Algorithms
+
+Machine learning algorithms make up a big part of applied machine learning.
+
+There is a lot of benefit in studying machine learning algorithms and learning how to get the most out of them.
+
+Below is a simple 5-step process that you can use to study and learn any machine learning algorithm.
+- Step 1: Create lists of machine learning algorithms  
+  - [Take Control By Creating Targeted Lists of Machine Learning Algorithms](https://machinelearningmastery.com/create-lists-of-machine-learning-algorithms/)
+- Step 2: Research machine learning algorithms  
+  - [How to Research a Machine Learning Algorithm](https://machinelearningmastery.com/how-to-research-a-machine-learning-algorithm/)
+- Step 3: Create your own algorithm descriptions  
+  - [How to Learn a Machine Learning Algorithm](https://machinelearningmastery.com/how-to-learn-a-machine-learning-algorithm/) 
+  - [6 Questions To Understand Any Machine Learning Algorithm](https://machinelearningmastery.com/question-to-understand-any-machine-learning-algorithm/)
+- Step 4: Investigate algorithm behavior  
+  - [How To Investigate Machine Learning Algorithm Behavior](https://machinelearningmastery.com/how-to-investigate-machine-learning-algorithm-behavior/) 
+  - [How to Build an Intuition for Machine Learning Algorithms](https://machinelearningmastery.com/how-to-build-an-intuition-for-machine-learning-algorithms/)
+- Step 5: Implement machine learning algorithms 
+  - [Stop Coding Machine Learning Algorithms From Scratch](https://machinelearningmastery.com/dont-implement-machine-learning-algorithms/) 
+  - [How to Implement a Machine Learning Algorithm](https://machinelearningmastery.com/how-to-implement-a-machine-learning-algorithm/) 
+  - [Benefits of Implementing Machine Learning Algorithms From Scratch](https://machinelearningmastery.com/benefits-of-implementing-machine-learning-algorithms-from-scratch/) 
+  - [Understand Machine Learning Algorithms By Implementing Them From Scratch](https://machinelearningmastery.com/understand-machine-learning-algorithms-by-implementing-them-from-scratch/)
+
+For a detailed overview of this approach see the post:
+- [Understand Machine Learning Algorithms Without the Background in Mathematics](https://machinelearningmastery.com/techniques-to-understand-machine-learning-algorithms-without-the-background-in-mathematics/)
+
+## Weka Machine Learning
+
+Weka is a platform that you can use to get started in applied machine learning.
+It has a graphical user interface meaning that no programming is required and it offers a suite of state of the art algorithms.
+
+Here’s how you can get started with Weka:
+- Step 1: Discover the features of the Weka platform.  
+  - [What is the Weka Machine Learning Workbench](https://machinelearningmastery.com/what-is-the-weka-machine-learning-workbench/)
+- Step 2: Discover how to get around the Weka platform.  
+  - [How to Download and Install the Weka Machine Learning Workbench](https://machinelearningmastery.com/download-install-weka-machine-learning-workbench/) 
+  - [A Tour of the Weka Machine Learning Workbench](https://machinelearningmastery.com/tour-weka-machine-learning-workbench/)
+- Step 3: Discover how to deliver results with Weka.  
+  - [How to Run Your First Classifier in Weka](https://machinelearningmastery.com/how-to-run-your-first-classifier-in-weka/) 
+  - [Applied Machine Learning With Weka Mini-Course](https://machinelearningmastery.com/applied-machine-learning-weka-mini-course/) 
+  - [Machine Learning Mastery With Weka](https://machinelearningmastery.com/machine-learning-mastery-weka/) (my book)
+
+You can see all Weka machine learning posts here. Below is a selection of some of the most popular tutorials.
+
+**Prepare Data in Weka**
+- [How To Load CSV Machine Learning Data in Weka](https://machinelearningmastery.com/load-csv-machine-learning-data-weka/)
+- [How to Better Understand Your Machine Learning Data in Weka](https://machinelearningmastery.com/better-understand-machine-learning-data-weka/)
+- [How to Normalize and Standardize Your Machine Learning Data in Weka](https://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/)
+- [How To Handle Missing Values In Machine Learning Data With Weka](https://machinelearningmastery.com/how-to-handle-missing-values-in-machine-learning-data-with-weka/)
+- [How to Perform Feature Selection With Machine Learning Data in Weka](https://machinelearningmastery.com/perform-feature-selection-machine-learning-data-weka/)
+
+**Weka Algorithm Tutorials**
+- [How to Use Machine Learning Algorithms in Weka](https://machinelearningmastery.com/use-machine-learning-algorithms-weka/)
+- [How To Estimate The Performance of Machine Learning Algorithms in Weka](https://machinelearningmastery.com/estimate-performance-machine-learning-algorithms-weka/)
+- [How To Use Regression Machine Learning Algorithms in Weka](https://machinelearningmastery.com/use-regression-machine-learning-algorithms-weka/)
+- [How To Use Classification Machine Learning Algorithms in Weka](https://machinelearningmastery.com/use-classification-machine-learning-algorithms-weka/)
+- [How to Tune Machine Learning Algorithms in Weka](https://machinelearningmastery.com/tune-machine-learning-algorithms-weka/)
+
+## Python Machine Learning
+
+Python is one of the fastest growing platforms for applied machine learning.
+You can use the same tools like pandas and scikit-learn in the development and operational deployment of your model.
+
+Below are the steps that you can use to get started with Python machine learning:
+- Step 1: Discover Python for machine learning  
+  - [A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library](https://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/)
+- Step 2: Discover the ecosystem for Python machine learning.  
+  - [Crash Course in Python for Machine Learning Developers](https://machinelearningmastery.com/crash-course-python-machine-learning-developers/) 
+  - [Python Ecosystem for Machine Learning](https://machinelearningmastery.com/python-ecosystem-machine-learning/) 
+  - [Python is the Growing Platform for Applied Machine Learning](https://machinelearningmastery.com/python-growing-platform-applied-machine-learning/)
+- Step 3: Discover how to work through problems using machine learning in Python.  
+  - [Your First Machine Learning Project in Python Step-By-Step](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/) 
+  - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/) 
+  - [Machine Learning Mastery With Python](https://machinelearningmastery.com/machine-learning-with-python/) (my book)
+
+You can see all [Python machine learning posts here](https://machinelearningmastery.com/category/python-machine-learning/). Below is a selection of some of the most popular tutorials.
+
+**Prepare Data in Python**
+- [How To Load Machine Learning Data in Python](https://machinelearningmastery.com/load-machine-learning-data-python/)
+- [Understand Your Machine Learning Data With Descriptive Statistics in Python](https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/)
+- [Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)
+- [How To Prepare Your Data For Machine Learning in Python with Scikit-Learn](https://machinelearningmastery.com/prepare-data-machine-learning-python-scikit-learn/)
+- [Feature Selection For Machine Learning in Python](https://machinelearningmastery.com/feature-selection-machine-learning-python/)
+
+**Machine Learning in Python**
+- [Evaluate the Performance of Machine Learning Algorithms](https://machinelearningmastery.com/evaluate-performance-machine-learning-algorithms-python-using-resampling/)
+- [Metrics To Evaluate Machine Learning Algorithms in Python](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)
+- [Spot-Check Classification Machine Learning Algorithms in Python with scikit-learn](https://machinelearningmastery.com/spot-check-classification-machine-learning-algorithms-python-scikit-learn/)
+- [Spot-Check Regression Machine Learning Algorithms in Python with scikit-learn](https://machinelearningmastery.com/spot-check-regression-machine-learning-algorithms-python-scikit-learn/)
+- [How To Compare Machine Learning Algorithms in Python with scikit-learn](https://machinelearningmastery.com/compare-machine-learning-algorithms-python-scikit-learn/)
+
+## R Machine Learning
+
 
 
 
