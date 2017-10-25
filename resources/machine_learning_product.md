@@ -37,4 +37,15 @@ Let’s assume that your software is modest. You are not looking for Google-size
 4. Develop Back-Testing and Now-Testing Infrastructure
 5. Challenge Then Trial Model Updates
   
-  
+### [Quora] What is the easiest way to deploy a machine learning model (say a regression) for production?
+Ref: https://www.quora.com/What-is-the-easiest-way-to-deploy-a-machine-learning-model-say-a-regression-for-production
+
+It include:
+- Wsgi and NginX
+- Flask main application file
+  - [Simple Flask Example | Authomatic ](http://peterhudec.github.io/authomatic/examples/flask-simple.html)
+  - [Quickstart - Flask Documentation (0.10) ](http://flask.pocoo.org/docs/0.10/quickstart/)
+- Microsoft Azure
+  - [Step 5: Deploy the Machine Learning web service](https://docs.microsoft.com/en-us/azure/machine-learning/studio/walkthrough-5-publish-web-service)
+  - [Deploy a Machine Learning web service](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-publish-a-machine-learning-web-service)
+- Flask and Docker: https://blog.solutotlv.com/deployed-scikit-learn-model-flask-docker/?utm_medium=What-is-the-easiest-way-to-deploy-a-machine-learning-model-say-a-regression-for-production&utm_source=quora
