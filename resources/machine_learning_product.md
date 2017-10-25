@@ -7,7 +7,12 @@ Josh Wills gave a talk on what it takes to build production machine learning inf
 
 Josh says that his current passion is **feature engineering**, that is the dark art of industrial machine learning.
 
-[PMLL](https://github.com/vanqm/pmll): **P**ython **M**achine **L**earning **L**ibrary
+**Industrial Machine Learning Frameworks**
+- [Architecting a Machine Learning System for Risk](https://medium.com/airbnb-engineering/architecting-a-machine-learning-system-for-risk-941abbba5a60)
+  - [Openscoring](https://github.com/andykram/openscoring)
+  - Python and Scikit-learn library
+  - Java PMML: Java Predictive Model Markup Language is an XML markup language that encodes several common types of machine learning models.
+  - [PMLL](https://github.com/vanqm/pmll): **P**ython **M**achine **L**earning **L**ibrary
 
 ## How to Use Machine Learning Results?
 Ref: https://machinelearningmastery.com/how-to-use-machine-learning-results/
