@@ -1,6 +1,6 @@
-## ML Product
+# ML Product
 
-### Building a Production Machine Learning Infrastructure
+## Building a Production Machine Learning Infrastructure
 Ref: https://machinelearningmastery.com/building-a-production-machine-learning-infrastructure/
 
 Josh Wills gave a talk on what it takes to build production machine learning infrastructure in a talk titled "[From the lab to the factory: Building a Production Machine Learning Infrastructure](https://www.youtube.com/watch?v=IgfRdDjLxe0)".
@@ -9,7 +9,7 @@ Josh says that his current passion is **feature engineering**, that is the dark 
 
 [PMLL](https://github.com/vanqm/pmll): **P**ython **M**achine **L**earning **L**ibrary
 
-### How to Use Machine Learning Results?
+## How to Use Machine Learning Results?
 Ref: https://machinelearningmastery.com/how-to-use-machine-learning-results/
 
 Depending on the type of problem you are trying to solve, the presentation of results will be very different. There are two main facets to making use of the results of your machine learning endeavor:
@@ -25,7 +25,7 @@ Depending on the type of problem you are trying to solve, the presentation of re
   - Model Tests
   - Tracking
 
-### How to Deploy Your Predictive Model To Production
+## How to Deploy Your Predictive Model To Production
 Ref: https://machinelearningmastery.com/deploy-machine-learning-model-to-production/
   
 #### I Have a Model. Now What?
@@ -46,7 +46,7 @@ Let’s assume that your software is modest. You are not looking for Google-size
 4. Develop Back-Testing and Now-Testing Infrastructure
 5. Challenge Then Trial Model Updates
   
-### [Quora] What is the easiest way to deploy a machine learning model (say a regression) for production?
+## [Quora] What is the easiest way to deploy a machine learning model (say a regression) for production?
 Ref: https://www.quora.com/What-is-the-easiest-way-to-deploy-a-machine-learning-model-say-a-regression-for-production
 
 It include:
