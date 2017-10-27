@@ -14,3 +14,8 @@ Ref: http://dmg.org/pfa/docs/motivation/
 - Tutorial 2: Programming (http://dmg.org/pfa/docs/tutorial2/)
 - Exoplanets example (http://dmg.org/pfa/docs/exoplanets/)
 - Statistical models (http://dmg.org/pfa/docs/models/)
+
+## Other Documents
+- https://github.com/datamininggroup/pfa/releases/download/0.8.1/pfa-specification.pdf
+- http://www.kdd.org/kdd2016/papers/files/adp0884-pivarskiAcb.pdf
+- https://dzone.com/articles/creating-scoring-engines-with-pfa
