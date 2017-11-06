@@ -6,21 +6,20 @@ Ref: [https://machinelearningmastery.com/discover-feature-engineering-how-to-eng
 - How to Engineer Features?
 - How to Get Good at It?
 
+## Feature Engineering Tips for Data Scientists and Business Analysts
+Ref: https://www.datasciencecentral.com/profiles/blogs/feature-engineering-tips-for-data-scientists
+
+- **Tip 1:** Think about inputs you can create by **rolling up existing data fields to a higher/broader level or category.**
+- **Tip 2:** Think about ways to **drill down into more detail in a single field.**
+- **Tip 3: Split data into separate categories** also called bins.
+- **Tip 4:** Think about ways to **combine existing data fields into new ones.**
+- **Tip 5:** Don’t reinvent the wheel – **use variables that others have already fashioned.**
+- **Tip 6: Think about the problem at hand and be creative.**
+
 ## How to Improve Machine Learning (http://data-informed.com)
 
 ### Overview Tricks and Tips for Feature Engineering
 Ref: [http://data-informed.com/how-to-improve-machine-learning-tricks-and-tips-for-feature-engineering/](http://data-informed.com/how-to-improve-machine-learning-tricks-and-tips-for-feature-engineering/)
-
-Some of the common and popular tricks employed for feature engineering are:
-- Standardizing Numerical Variables
-- Binning/Converting Numerical to Categorical Variable
-- Reducing Levels in Categorical Variables
-- Transforming Non-normal Distribution to Normal
-- Missing Data
-- Dummy Variables
-- Interaction
-- Reducing Dimensionality
-- Intuitive and Additional Features
 
 ### The Tricks in Detail
 
