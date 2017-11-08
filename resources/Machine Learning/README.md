@@ -1,3 +1,10 @@
+## Python Automated Machine Learning tool 
+
+- [TPOT](https://github.com/vanqm/tpot): TPOT is a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
+- [auto-sklearn](https://github.com/automl/auto-sklearn)
+  - Auto-sklearn provides out-of-the-box supervised machine learning. Built around the scikit-learn machine learning library, auto-sklearn automatically searches for the right learning algorithm for a new machine learning dataset and optimizes its hyperparameters. Thus, it frees the machine learning practitioner from these tedious tasks and allows her to focus on the real problem.
+  - Ref: http://www.ml4aad.org/automl/auto-sklearn/
+
 ## Machine Learning Goals and Outputs
 
 Machine learning algorithms are used primarily for the following types of output:
