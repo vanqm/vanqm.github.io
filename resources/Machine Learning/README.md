@@ -46,3 +46,12 @@ Machine learning algorithms are used primarily for the following types of output
 
 ## Machine Learning - Performance
 - [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
+
+## Reference Links
+- https://sebastianraschka.com
+- https://machinelearningmastery.com
+- TensorFlow
+  - https://www.tensorflow.org/get_started/os_setup
+  - https://www.tensorflow.org/api_docs/python/
+  - https://www.tensorflow.org/tutorials/
+  - https://www.tensorflow.org/how_tos/summaries_and_tensorboard/
