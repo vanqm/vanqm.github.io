@@ -1,0 +1,15 @@
+From 4/2018 - present: Senior AI in FSoft HCM
+Data used:
+- Time-series data with CSV format
+- Image data
+Responsibilities:
+- Fighting with customer to discuss, confirm the soluttion, requirements.
+- Processing and analyzing the data base on the requirement.
+- Building the model to train the data.
+- Mentor the junior AI guys.
+- Investigating the requirements, issues and raise the solution.
+- Make the document
+Technologies used:
+-	ML/AI libraries: scikit-learn, Keras, TensorFlow
+-	Python process data libraries: Pandas, Numpy, Opencv, Matplotlib...
+- OS: Linux, Windows.
