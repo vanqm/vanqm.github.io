@@ -13,3 +13,6 @@ Technologies used:
 -	ML/AI libraries: scikit-learn, Keras, TensorFlow
 -	Python process data libraries: Pandas, Numpy, Opencv, Matplotlib...
 - OS: Linux, Windows.
+
+- 24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)
+  + https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
