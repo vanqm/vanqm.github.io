@@ -16,3 +16,5 @@ Technologies used:
 
 - 24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)
   + https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
+- The 15 Most Popular Data Science and Machine Learning Articles on Analytics Vidhya in 2018
+  + https://www.analyticsvidhya.com/blog/2018/12/most-popular-articles-analytics-vidhya-2018/
