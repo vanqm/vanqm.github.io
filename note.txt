@@ -18,3 +18,5 @@ Technologies used:
   + https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
 - The 15 Most Popular Data Science and Machine Learning Articles on Analytics Vidhya in 2018
   + https://www.analyticsvidhya.com/blog/2018/12/most-popular-articles-analytics-vidhya-2018/
+
+https://www.hackerrank.com/tests/2ps5oem4i4c/login?b=eyJ1c2VybmFtZSI6Im1haXF1b2N2YW5AZ21haWwuY29tIiwicGFzc3dvcmQiOiI0ZmZiYjRjZiIsImhpZGUiOnRydWV9
