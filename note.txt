@@ -1,22 +1,22 @@
-From 4/2018 - present: Senior AI in FSoft HCM
-Data used:
-- Time-series data with CSV format
-- Image data
-Responsibilities:
-- Fighting with customer to discuss, confirm the soluttion, requirements.
-- Processing and analyzing the data base on the requirement.
-- Building the model to train the data.
-- Mentor the junior AI guys.
-- Investigating the requirements, issues and raise the solution.
-- Make the document
-Technologies used:
--	ML/AI libraries: scikit-learn, Keras, TensorFlow
--	Python process data libraries: Pandas, Numpy, Opencv, Matplotlib...
-- OS: Linux, Windows.
-
-- 24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)
-  + https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
-- The 15 Most Popular Data Science and Machine Learning Articles on Analytics Vidhya in 2018
-  + https://www.analyticsvidhya.com/blog/2018/12/most-popular-articles-analytics-vidhya-2018/
-
-https://www.hackerrank.com/tests/2ps5oem4i4c/login?b=eyJ1c2VybmFtZSI6Im1haXF1b2N2YW5AZ21haWwuY29tIiwicGFzc3dvcmQiOiI0ZmZiYjRjZiIsImhpZGUiOnRydWV9
+http://cafebiz.vn/anh-nha-ong-2-tang-o-da-nang-co-thiet-ke-don-gian-nhung-van-tuyet-dep-20190513194607395.chn
+https://doisong.vnexpress.net/photo/khong-gian-song/ngoi-nha-nhat-co-7-ban-cong-quay-nguoc-vao-trong-3819702.html?vn_source=rcm_detail&vn_medium=xe&vn_campaign=rcm&ctr=rcm_detail_env_4_click_xe
+http://cafebiz.vn/hoan-thien-ngoi-nha-trong-mo-chi-voi-hon-300-trieu-dong-20190225084546271.chn
+http://cafebiz.vn/nha-ong-3-tang-dep-sieu-long-voi-chi-phi-chi-800-trieu-dong-20190224092002318.chn
+https://vnexpress.net/doi-song/hai-ngoi-nha-viet-vao-top-cong-trinh-co-gieng-troi-thong-minh-3772771.html
+http://cafebiz.vn/nhung-ngoi-nha-dep-rung-roi-du-xay-dung-chua-toi-1-ty-dong-2019030614241479.chn
+http://cafebiz.vn/ngam-ngoi-nha-da-the-he-duoc-thiet-ke-thong-minh-lai-tiet-kiem-chi-phi-chieu-long-tat-ca-cac-thanh-vien-trong-gia-dinh-o-han-quoc-20190305170637132.chn
+http://cafebiz.vn/ngoi-nha-pho-sang-trong-nhung-am-cung-mang-dam-vi-au-tho-o-tuyen-pho-dat-gia-cua-ha-noi-20190225171056302.chn
+http://cafebiz.vn/can-nha-thieu-sang-va-ngot-ngat-dep-ngo-ngang-sau-khi-duoc-cai-tao-20190307142658695.chn
+https://vnexpress.net/doi-song/nha-ong-sai-gon-khien-khach-den-chi-thich-ngam-gieng-troi-3892154.html
+https://vnexpress.net/doi-song/ngoi-nha-mai-ton-van-mat-ruoi-o-dak-nong-3890430.html
+http://cafebiz.vn/ngoi-nha-dep-nhu-tranh-voi-loi-thiet-ke-don-gian-tinh-te-duoi-day-se-khien-ban-yeu-ngay-tu-anh-nhin-dau-tien-2017102415020102.chn
+http://cafebiz.vn/manh-me-va-nam-tinh-ngoi-nha-nay-chinh-la-ung-cu-vien-dau-tien-trong-danh-sach-nhung-ngoi-nha-dep-cua-nam-2019-20190121174754968.chn
+http://cafebiz.vn/co-mot-ngoi-nha-dep-khien-bao-tay-khen-het-loi-o-pho-bien-thi-cuoc-song-con-gi-tuyet-hon-nua-20171030155607894.chn
+http://cafebiz.vn/cai-tao-nha-cap-4-cu-ki-hoang-tan-thanh-ngoi-nha-dep-binh-yen-va-tho-mong-20171226114355568.chn
+http://cafebiz.vn/can-ho-63m-dep-hut-hon-nho-thiet-ke-theo-phong-cach-nhat-cua-chang-trai-doc-than-o-sai-gon-2019031417111771.chn
+http://cafebiz.vn/mai-khong-tra-het-no-cap-vo-chong-ban-sach-nha-cua-dua-con-cai-len-o-to-o-ai-ngo-cuoc-doi-lai-sang-trang-luon-20180912171956335.chn
+https://vnexpress.net/doi-song/nha-ong-sai-gon-khien-chu-nhan-muon-buon-cung-kho-3899254.html
+https://vnexpress.net/doi-song/chung-cu-xanh-ron-tren-manh-dat-100-m2-o-vung-tau-3882059.html
+http://cafebiz.vn/bao-nuoc-ngoai-ca-ngoi-nha-cap-4-lay-cam-hung-tu-hang-son-doong-20190411133611688.chn
+https://vnexpress.net/doi-song/nha-ong-sai-gon-thua-nang-thua-gio-3917630.html
+http://cafebiz.vn/cuoc-song-vua-du-cua-gia-dinh-tu-bo-ngoi-nha-rong-200m-de-chuyen-den-can-ho-70m-ngap-tran-anh-sang-o-sai-gon-2019050916381944.chn
