@@ -20,3 +20,18 @@ https://vnexpress.net/doi-song/chung-cu-xanh-ron-tren-manh-dat-100-m2-o-vung-tau
 http://cafebiz.vn/bao-nuoc-ngoai-ca-ngoi-nha-cap-4-lay-cam-hung-tu-hang-son-doong-20190411133611688.chn
 https://vnexpress.net/doi-song/nha-ong-sai-gon-thua-nang-thua-gio-3917630.html
 http://cafebiz.vn/cuoc-song-vua-du-cua-gia-dinh-tu-bo-ngoi-nha-rong-200m-de-chuyen-den-can-ho-70m-ngap-tran-anh-sang-o-sai-gon-2019050916381944.chn
+
+Base an AI/ML Engineer role, I want to share my answer about the test case.
+
+From the data (http://ghdx.healthdata.org/record/ihme-data/united-states-mortality-rates-county-1980-2014), it is about:
+- Location: US - states and countries information
+- There are 24 categorise causes of death
+- There are information about gender (Male and Female), and no more information about patients, bussiness or industries
+- The period is from 1980 - 2014, the values are mortality rates (Percent change, upper, lower)
+
+Base on the requirement of test case, with my view, we cannot try with any Machine Learning models to forecast anything.
+To build the Machine Learning model for forecasting, we must intergrate the current information with information about: age, patient, bussiness, industries, ...
+With current information, we have just used the data for analyzing the trends of mortality rates base on states, countries of state, sex with period time.
+
+Thanks,
+
